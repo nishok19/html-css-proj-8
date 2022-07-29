@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+
+/* .main-div {
+  background: url("/images/backcover.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+} */
+
+/* ////////////////////////// */
+/* navbar section */
+/* ////////////////////////// */
+
+nav {
+  display: flex;
+  height: 15vh;
+  padding: 2rem 12rem;
+  justify-content: space-between;
+}
+
+nav img {
+  width: 120px;
+}
+
+.nav-items {
+  display: flex;
+  margin: auto;
+}
+
+.nav-item {
+  font-size: 16px;
+  color: #3b4384;
+  margin: 0 2rem;
+}
+
+.signin-btn {
+  height: 2rem;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 1rem;
+  background: linear-gradient(to right, #965cf2, #ff8adc);
+  color: #fff;
+  margin: auto 0;
+  cursor: pointer;
+}
+
+/* /////////////////////////////// */
+/* hero section */
+/* /////////////////////////////// */
+
+.intro-section {
+  display: flex;
+}
+
+.left-section {
+  color: #3b4384;
+  padding: 2rem 12rem;
+  width: 45vw;
+  margin-top: 6rem;
+}
+
+.left-section h1 {
+  font-size: 70px;
+}
+
+.left-section h4 {
+  font-size: 14px;
+  font-weight: 200;
+  margin-top: 4rem;
+  line-height: 30px;
+  /* margin-right: 6rem; */
+}
+
+.learn-more-btn {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 2rem;
+  font-size: 26px;
+  background: linear-gradient(to right, #965cf2, #ff8adc);
+  color: #fff;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+
+/* right section */
+
+.imgs-div {
+  background: url("/images/backcover.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 65vw;
+  z-index: -1;
+  /*  */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgs-div img {
+  /* margin-right: auto; 
+  flex-direction: row; */
+  /* display: flex; */
+}
+
+.vector-dot + img {
+  margin: 1rem 0 0 15rem;
+}
+
+.vector-img,
+.vector-dot {
+  width: fit-content;
+  position: absolute;
+  left: 15rem;
+  bottom: 0;
+  margin: 0 10rem 10rem 0;
+}
+
+.vector-dot {
+  margin: 0 0 15rem 4rem;
+}
