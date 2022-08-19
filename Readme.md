@@ -6,7 +6,7 @@
 
 In the eighth project of HTML and CSS class I have learnt mostly about positioning in CSS which is used mostly in alignment of the image and the text.
 
-[Live Project Demo](https://nishok-html-css-proj8.netlify.app/)
+## [Live Project Demo](https://nishok-html-css-proj8.netlify.app/)
 
 ## Efforts
 
